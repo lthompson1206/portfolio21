@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import sanityClient from "../client";
-import trapnerd from "../trapnerd.png"
+import trapnerd from "../aboutbg.png"
 import imageUrlBuilder from "@sanity/image-url"
 import BlockContent from "@sanity/block-content-to-react";
 
@@ -23,11 +23,11 @@ export default function About() {
 
     if (!author) return <div>Loading... </div>
     return (
-        <main className="relative">
-            <img src={trapnerd}
+        <main className="bg-green-100 min-h-screen p-12">
+            {/* <img src={trapnerd}
             alt="trapnerd"
             className="absolute w-full"
-            />
+            /> */}
             <div className="p-10 lg:pt-48 container mx-auto relative">
                 <section className="bg-green-800 rounded-lg shadow-2xl lg:flex p-20">
                     <img 

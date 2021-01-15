@@ -4,28 +4,28 @@ import { SocialIcon } from "react-social-icons";
 
 export default function NavBar() {
     return (
-        <header className="bg-red-600">
+        <header className="bg-blue-900">
             <div className="container mx-auto flex justify-between">
               <nav className="flex">
                   <NavLink to="/" 
                   exact
-                  activeClassName="text-white" 
-                  className="inflex-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest">
-                     mont3ga 
+                  activeClassName="text-gray" 
+                  className="inflex-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-gold-800 text-4xl font-bold cursive tracking-widest">
+                    Lamont 
                   </NavLink>
                   <NavLink to="/post" 
-                  className="inline-fle items-centre py-3 px-3 my-6 rounded txt-red-200 hover:text-green-800" 
-                  activeClassName="text-red-100 bg-red-700">
+                  className="inline-fle items-center py-3 px-3 my-6 rounded text-gray-400 hover:text-green-800" 
+                  activeClassName="text-red-100 bg-gray-400">
                    Blog Posts
                   </NavLink>
                   <NavLink to="/project" 
-                  className="inline-fle items-centre py-3 px-3 my-6 rounded txt-red-200 hover:text-green-800"
-                  activeClassName="text-red-100 bg-red-700">
+                  className="inline-fle items-center py-3 px-3 my-6 rounded text-gray-400 hover:text-green-800"
+                  activeClassName="text-red-100 bg-gray-400">
                     Project
                   </NavLink>
                   <NavLink to="/about" 
-                  className="inline-fle items-centre py-3 px-3 my-6 rounded txt-red-200 hover:text-green-800"
-                  activeClassName="text-red-100 bg-red-700">
+                  className="inline-fle items-center py-3 px-3 my-6 rounded text-gray-400 hover:text-green-800"
+                  activeClassName="text-red-100 bg-gray-400">
                     About Me!
                   </NavLink>
                  
