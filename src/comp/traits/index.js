@@ -6,10 +6,11 @@ import React from "react";
 */
 function Traits() {
   return (
-    <div class="grid-cols-1">
+    <div class="grid-cols-2">
     <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
-    <div>
-        <div class="inline-block md:flex-shrink-0">
+    <div class="md:flex">
+
+        <div class="ml-8 inline-block md:flex-shrink-0">
         <img 
         class="w-24 h-24 rounded-full" 
         src="https://i.imgur.com/VTXI4By.png" 
@@ -17,7 +18,7 @@ function Traits() {
         width="384" 
         height="512"></img>
         </div>
-        <div class="inline-block">
+        <div class="inline-block text-center sm:text-right">
             <p>PERSISTENT & DETERMINED</p>
             <p>Eyes always on the prize no matter the challenges</p>
             </div>
@@ -25,8 +26,9 @@ function Traits() {
     </figure>
     <div class="grid-cols-1">
     <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
-    <div>
-        <div class="inline-block md:flex-shrink-0"> 
+    <div class="md:flex">
+
+         <div class="ml-8 inline-block md:flex-shrink-0">
         <img 
         class="w-24 h-24 rounded-full" 
         src="https://i.imgur.com/VTXI4By.png" 
@@ -34,7 +36,7 @@ function Traits() {
         width="384" 
         height="512"></img>
         </div>
-         <div class="inline-block">
+        <div class="inline-block text-center sm:text-right">
              <p>PLANNER</p>
              <p>Schedules & deadlines, but knows when to adjust</p>
              </div>
@@ -44,8 +46,9 @@ function Traits() {
     </div>
     <div class="grid-cols-1">
     <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
-    <div>
-        <div class="inline-block md:flex-shrink-0"> 
+  <div class="md:flex">
+
+         <div class="ml-8 inline-block md:flex-shrink-0">
         <img 
         class="w-24 h-24 rounded-full" 
         src="https://i.imgur.com/VTXI4By.png" 
@@ -53,7 +56,7 @@ function Traits() {
         width="384" 
         height="512"></img>
         </div>
-         <div class="inline-block">
+        <div class="inline-block text-center sm:text-right">
              <p>RISK TAKER</p>
              <p>Not afraid to go all-in. Hope for the best but can deal with the worst</p>
              </div>
@@ -64,8 +67,9 @@ function Traits() {
     
     <div class="grid-cols-1">
     <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
-    <div>
-        <div class="inline-block md:flex-shrink-0"> 
+   <div class="md:flex">
+
+         <div class="ml-8 inline-block md:flex-shrink-0">
         <img 
         class="w-24 h-24 rounded-full" 
         src="https://i.imgur.com/VTXI4By.png" 
@@ -73,7 +77,7 @@ function Traits() {
         width="384" 
         height="512"></img>
         </div>
-         <div class="inline-block">
+        <div class="inline-block text-center sm:text-right">
              <p>IMAGINATIVE</p>
              <p>Thinks big from the beginning, Relishes challenging boundaries</p>
              </div>
@@ -84,8 +88,8 @@ function Traits() {
     
     <div class="grid-cols-1">
     <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
-    <div>
-        <div class="inline-block md:flex-shrink-0"> 
+   <div class="md:flex">
+         <div class="ml-8 inline-block md:flex-shrink-0">
         <img 
         class="w-24 h-24 rounded-full" 
         src="https://i.imgur.com/VTXI4By.png" 
@@ -93,7 +97,7 @@ function Traits() {
         width="384" 
         height="512"></img>
         </div>
-         <div class="inline-block">
+        <div class="inline-block text-center sm:text-right">
              <p>CRAVES LEARNING</p>
              <p>I am always looking to change or evolve to stay ahead of the curve</p>
              </div>
@@ -104,8 +108,8 @@ function Traits() {
     
     <div class="grid-cols-1">
     <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
-    <div>
-        <div class="inline-block md:flex-shrink-0"> 
+    <div class="md:flex">
+         <div class="ml-8 inline-block md:flex-shrink-0">
         <img 
         class="w-24 h-24 rounded-full" 
         src="https://i.imgur.com/VTXI4By.png" 
@@ -113,7 +117,7 @@ function Traits() {
         width="384" 
         height="512"></img>
         </div>
-         <div class="inline-block">
+        <div class="inline-block text-center sm:text-right">
              <p>SMART SELF PROMOTER</p>
              <p>Able to sell and tell my story. Enthusiastic.</p>
              </div>
@@ -124,8 +128,8 @@ function Traits() {
     
     <div class="grid-cols-1">
     <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
-    <div>
-        <div class="inline-block md:flex-shrink-0"> 
+    <div class="md:flex">
+         <div class="ml-8 inline-block md:flex-shrink-0">
         <img 
         class="w-24 h-24 rounded-full" 
         src="https://i.imgur.com/VTXI4By.png" 
@@ -133,7 +137,7 @@ function Traits() {
         width="384" 
         height="512"></img>
         </div>
-         <div class="inline-block">
+        <div class="inline-block text-center sm:text-right">
              <p>ACCEPTS FAILURE</p>
              <p>Uses failure as a learning experience, then improves</p>
              </div>

@@ -64,6 +64,7 @@ export default function Project() {
             </article>
             ))}
         </section>
+        
     </section>
 </main>
     )
