@@ -11,15 +11,16 @@ function Traits() {
     <div class="md:flex">
 
         <div class="ml-8 inline-block md:flex-shrink-0">
-        <img 
+        <i class="fas fa-mountain #6DB65B fa-6x icon-a" style={{color: "orange"}}></i>
+        {/* <img 
         class="w-24 h-24 rounded-full" 
         src="https://i.imgur.com/VTXI4By.png" 
         alt="" 
         width="384" 
-        height="512"></img>
+        height="512"></img> */}
         </div>
         <div class="inline-block text-center sm:text-right">
-            <p>PERSISTENT & DETERMINED</p>
+            <p><strong>PERSISTENT & DETERMINED</strong></p>
             <p>Eyes always on the prize no matter the challenges</p>
             </div>
         </div>
@@ -29,15 +30,16 @@ function Traits() {
     <div class="md:flex">
 
          <div class="ml-8 inline-block md:flex-shrink-0">
-        <img 
+         <i class="fas fa-calendar-alt fa-6x"style={{color: "gray"}}></i>
+        {/* <img 
         class="w-24 h-24 rounded-full" 
         src="https://i.imgur.com/VTXI4By.png" 
         alt="" 
         width="384" 
-        height="512"></img>
+        height="512"></img> */}
         </div>
         <div class="inline-block text-center sm:text-right">
-             <p>PLANNER</p>
+             <p><strong>PLANNER</strong></p>
              <p>Schedules & deadlines, but knows when to adjust</p>
              </div>
              </div>
@@ -49,15 +51,16 @@ function Traits() {
   <div class="md:flex">
 
          <div class="ml-8 inline-block md:flex-shrink-0">
-        <img 
+         <i class="fas fa-dice-three fa-6x" style={{color: "green"}}></i>
+        {/* <img 
         class="w-24 h-24 rounded-full" 
         src="https://i.imgur.com/VTXI4By.png" 
         alt="" 
         width="384" 
-        height="512"></img>
+        height="512"></img> */}
         </div>
         <div class="inline-block text-center sm:text-right">
-             <p>RISK TAKER</p>
+             <p><strong>RISK TAKER</strong></p>
              <p>Not afraid to go all-in. Hope for the best but can deal with the worst</p>
              </div>
              </div>
@@ -70,15 +73,16 @@ function Traits() {
    <div class="md:flex">
 
          <div class="ml-8 inline-block md:flex-shrink-0">
-        <img 
+         <i class="fas fa-lightbulb fa-6x" style={{color: "gray"}}></i>
+        {/* <img 
         class="w-24 h-24 rounded-full" 
         src="https://i.imgur.com/VTXI4By.png" 
         alt="" 
         width="384" 
-        height="512"></img>
+        height="512"></img> */}
         </div>
         <div class="inline-block text-center sm:text-right">
-             <p>IMAGINATIVE</p>
+             <p><strong>IMAGINATIVE</strong></p>
              <p>Thinks big from the beginning, Relishes challenging boundaries</p>
              </div>
              </div>
@@ -90,15 +94,16 @@ function Traits() {
     <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
    <div class="md:flex">
          <div class="ml-8 inline-block md:flex-shrink-0">
-        <img 
+         <i class="fas fa-book fa-6x" style={{color: "yellow"}}></i>
+        {/* <img 
         class="w-24 h-24 rounded-full" 
         src="https://i.imgur.com/VTXI4By.png" 
         alt="" 
         width="384" 
-        height="512"></img>
+        height="512"></img> */}
         </div>
         <div class="inline-block text-center sm:text-right">
-             <p>CRAVES LEARNING</p>
+             <p><strong>CRAVES LEARNING</strong></p>
              <p>I am always looking to change or evolve to stay ahead of the curve</p>
              </div>
              </div>
@@ -110,15 +115,16 @@ function Traits() {
     <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
     <div class="md:flex">
          <div class="ml-8 inline-block md:flex-shrink-0">
-        <img 
+         <i class="fas fa-desktop fa-6x" style={{color: "blue"}}></i>
+        {/* <img 
         class="w-24 h-24 rounded-full" 
         src="https://i.imgur.com/VTXI4By.png" 
         alt="" 
         width="384" 
-        height="512"></img>
+        height="512"></img> */}
         </div>
         <div class="inline-block text-center sm:text-right">
-             <p>SMART SELF PROMOTER</p>
+             <p><strong>SMART SELF PROMOTER</strong></p>
              <p>Able to sell and tell my story. Enthusiastic.</p>
              </div>
              </div>
@@ -130,15 +136,16 @@ function Traits() {
     <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
     <div class="md:flex">
          <div class="ml-8 inline-block md:flex-shrink-0">
-        <img 
+         <i class="fas fa-circle fa-6x" style={{color: "orange"}}></i>
+        {/* <img 
         class="w-24 h-24 rounded-full" 
         src="https://i.imgur.com/VTXI4By.png" 
         alt="" 
         width="384" 
-        height="512"></img>
+        height="512"></img> */}
         </div>
         <div class="inline-block text-center sm:text-right">
-             <p>ACCEPTS FAILURE</p>
+             <p><strong>ACCEPTS FAILURE</strong></p>
              <p>Uses failure as a learning experience, then improves</p>
              </div>
              </div>

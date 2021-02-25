@@ -20,7 +20,7 @@ function Skills() {
     <div class="md:flex">
        
         <div class="text-center sm:text-left">
-            <p class="text-right">BASIC CODING SKILLS</p>
+            <p class="text-right"><strong>BASIC CODING SKILLS</strong></p>
             <p class="text-right">Knows how to build tech from fundamental coding languages</p>
             </div>
             <div class="ml-8 inline-block md:flex-shrink-0">
@@ -38,7 +38,7 @@ function Skills() {
     <div class="md:flex">
        
     <div class="text-center sm:text-left">
-    <p class="text-right">WIREFRAMING</p>
+    <p class="text-right"><strong>WIREFRAMING</strong></p>
              <p class="text-right">Ready to architect the next great digital experience</p>
              </div>
              <div class="ml-8 inline-block md:flex-shrink-0">
@@ -58,7 +58,7 @@ function Skills() {
     <div class="md:flex">
        
     <div class="text-center sm:text-left">
-             <p class="text-right">CAN MAKE DATA-DRIVEN DECISIONS</p>
+             <p class="text-right"><strong>CAN MAKE DATA-DRIVEN DECISIONS</strong></p>
              <p class="text-right">Defers to the data over intuition whenever possible</p>
              </div>
              <div class="ml-8 inline-block md:flex-shrink-0">
@@ -79,7 +79,7 @@ function Skills() {
     <div class="md:flex">
         
     <div class="text-center sm:text-left">
-             <p class="text-right">ACCOUNTING AND BOOKKEEPING</p>
+             <p class="text-right"><strong>ACCOUNTING AND BOOKKEEPING</strong></p>
              <p class="text-right">Meticulous, disciplined and organized when it comes to numbers</p>
              </div>
              <div class="ml-8 inline-block md:flex-shrink-0">
@@ -100,7 +100,7 @@ function Skills() {
     <div class="md:flex">
         
     <div class="text-center sm:text-left">
-             <p class="text-right">ARTICULATE COMMUNICATION</p>
+             <p class="text-right"><strong>ARTICULATE COMMUNICATION</strong></p>
              <p class="text-right">Always succeeds in being clear, no matter the audience</p>
              </div>
              <div class="ml-8 inline-block md:flex-shrink-0">
@@ -121,7 +121,7 @@ function Skills() {
     <div class="md:flex">
        
     <div class="text-center sm:text-left">
-             <p class="text-right">DIGITAL MARKETING</p>
+             <p class="text-right"><strong>DIGITAL MARKETING</strong></p>
              <p class="text-right">Knows implicitly that great products need great strategies</p>
              </div>
              <div class="ml-8 inline-block md:flex-shrink-0">
@@ -142,7 +142,7 @@ function Skills() {
     <div class="md:flex">
        
     <div class="text-center sm:text-left">
-             <p class="text-right">BUSINESS ADMIN AND PLANNING</p>
+             <p class="text-right"><strong>BUSINESS ADMIN AND PLANNING</strong></p>
              <p class="text-right">Knows how to run a business top to bottom</p>
              </div>
              <div class="ml-8 inline-block md:flex-shrink-0">
@@ -164,50 +164,4 @@ function Skills() {
 export default Skills;
   
  
-  
-  // <div>
-  //   <i class="fas fa-laptop-code fa-6x" style={{color: "grey"}} ></i>
-  //   <h1 className="font-semibold">BASIC CODING SKILLS</h1>
-  // <p class="text-right">Knows how to build tech from fundamental coding languages</p></div>;
-  // <div>
-  //   <i class="fas fa-calculator fa-6x" style={{color: "grey"}} ></i>
-  //    <h1 className="font-semibold">WIREFRAMING</h1>
-  //             <p>Ready to architect the next great digital experience</p>
-  // </div>;
-  // <div>
-  //   <i class="fas fa-calculator fa-6x" style={{color: "grey"}} ></i>
-  //   <h1 className="font-semibold">CAN MAKE DATA-DRIVEN DECISIONS</h1>
-  //             <p>Defers to the data over intuition whenever possible</p>
-  // </div>;
-  // <div>
-  //   <i class="fas fa-cloud fa-6x" style={{color: "grey"}}></i>
-  //   <h1 className="font-semibold">ACCOUNTING AND BOOKKEEPING</h1>
-  //             <p>Meticulous, disciplined and organized when it comes to numbers</p>
-  // </div>;
-  // <div>
-  //   <i class="fas fa-comments-dollar fa-6x" style={{color: "grey"}}></i>
-  //   <h1 className="font-semibold">ARTICULATE COMMUNICATION</h1>
-  //             <p>Always succeeds in being clear, no matter the audience</p>
-  // </div>;
-  // <div>
-  //   <i class="fas fa-circle fa-6x" style={{color: "grey"}}></i>
-  //    <h1 className="font-semibold">DIGITAL MARKETING</h1>
-  //             <p>Knows implicitly that great products need great strategies</p>
-  // </div>;
-  // <div>
-  //   <i class="fas fa-building fa-6x" style={{color: "grey"}}></i>
-  //    <h1 className="font-semibold">BUSINESS ADMIN AND PLANNING</h1>
-  //             <p>Knows how to run a business top to bottom</p>
-  // </div>
 
-// Function components which use an arrow function syntax are also valid
-// const Header = () => <h1>Hello React</h1>;
-
-// /* 
-//   Class component
-//   Class components have more boilerplate (note the 'extends' keyword and 'render' method)
-// */
-// class Header extends React.Component {
-//   render() {
-//     return <h1>Hello React</h1>;
-//   }

@@ -26,13 +26,13 @@ export default function Home() {
                     Shortly after attending South University for computer science, I completed a coding bootcamp at Rutgers University. Since then I've worked on a variety of projects
                 </p> */}
             </section>
-            <div className="inline-flex py-3 px-80 mr-6 content-center">
-
-<SocialIcon url="https://www.youtube.com/channel/UCG588cE4sQJEBULTxBAiH-g/featured" className="mr-4" target="_blank" fgColor="#fff" style={{height: 35, width: 35}} />
-<SocialIcon url="https://www.instagram.com/trapnerd_consulting/" className="mr-4" target="_blank" fgColor="#fff" style={{height: 35, width: 35}} />
-<SocialIcon url="https://www.linkedin.com/in/lamont-thompson-profile/" className="mr-4" target="_blank" fgColor="#fff" style={{height: 35, width: 35}} />
-                  </div>
+     
             </div>
+            <div class="flex justify-center ...">
+  <div><SocialIcon url="https://www.youtube.com/channel/UCG588cE4sQJEBULTxBAiH-g/featured" className="mr-4" target="_blank" fgColor="#fff" style={{height: 35, width: 35}} /></div>
+  <div><SocialIcon url="https://github.com/lthompson1206/" className="mr-4" target="_blank" fgColor="#fff" style={{height: 35, width: 35}} /></div>
+  <div><SocialIcon url="https://www.linkedin.com/in/lamont-thompson-profile/" className="mr-4" target="_blank" fgColor="#fff" style={{height: 35, width: 35}} /></div>
+</div>
             
         </main>
         
