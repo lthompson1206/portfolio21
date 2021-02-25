@@ -33,7 +33,7 @@ export default function About() {
 
   if (!author) return <div>Loading... </div>;
   return (
-    <main className="bg-green-100 min-h-screen p-12">
+    <main className="bg-gray-700 min-h-screen p-12">
       {/* <img src={trapnerd}
             alt="trapnerd"
             className="absolute w-full"

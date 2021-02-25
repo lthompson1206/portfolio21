@@ -1,4 +1,11 @@
 import React from "react";
+import image_ from "../../assets/code.png"
+import image from "../../assets/wireframing.svg";
+import image2 from "../../assets/data.svg";
+import image3 from "../../assets/bookkeeping.svg";
+import image4 from "../../assets/communication.svg";
+import image5 from "../../assets/marketing.svg";
+import image6 from "../../assets/business.svg";
 
 /* 	
   Function component
@@ -19,7 +26,7 @@ function Skills() {
             <div class="ml-8 inline-block md:flex-shrink-0">
         <img 
         class=" w-24 h-24 rounded-full" 
-        src="https://i.imgur.com/VTXI4By.png" 
+        src={image_} 
         alt="" 
         width="384" 
         height="512"></img>
@@ -37,7 +44,7 @@ function Skills() {
              <div class="ml-8 inline-block md:flex-shrink-0">
         <img 
         class="w-24 h-24 rounded-full" 
-        src="https://i.imgur.com/VTXI4By.png" 
+        src={image} 
         alt="" 
         width="384" 
         height="512"></img>
@@ -57,7 +64,7 @@ function Skills() {
              <div class="ml-8 inline-block md:flex-shrink-0">
         <img 
         class="w-24 h-24 rounded-full" 
-        src="https://i.imgur.com/VTXI4By.png" 
+        src={image2} 
         alt="" 
         width="384" 
         height="512"></img>
@@ -78,7 +85,7 @@ function Skills() {
              <div class="ml-8 inline-block md:flex-shrink-0">
         <img 
         class="w-24 h-24 rounded-full" 
-        src="https://i.imgur.com/VTXI4By.png" 
+        src={image3}
         alt="" 
         width="384" 
         height="512"></img>
@@ -99,7 +106,7 @@ function Skills() {
              <div class="ml-8 inline-block md:flex-shrink-0">
         <img 
         class="w-24 h-24 rounded-full" 
-        src="https://i.imgur.com/VTXI4By.png" 
+        src={image4}
         alt="" 
         width="384" 
         height="512"></img>
@@ -120,7 +127,7 @@ function Skills() {
              <div class="ml-8 inline-block md:flex-shrink-0">
         <img 
         class="w-24 h-24 rounded-full" 
-        src="https://i.imgur.com/VTXI4By.png" 
+        src={image5} 
         alt="" 
         width="384" 
         height="512"></img>
@@ -141,7 +148,7 @@ function Skills() {
              <div class="ml-8 inline-block md:flex-shrink-0">
         <img 
         class="w-24 h-24 rounded-full" 
-        src="https://i.imgur.com/VTXI4By.png" 
+        src={image6} 
         alt="" 
         width="384" 
         height="512"></img>
