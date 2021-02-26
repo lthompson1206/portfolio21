@@ -5,19 +5,28 @@ export default function Home() {
     return (
         <main>
           <img src={image} alt="the edge" className="absolute object-cover w-full h-full" />
-             <div className="p-8   lg:pt-48 container mx-auto relative content-center">
+             <div className="p-4  lg:pt-48 container mx-auto relative content-center">
              <h1 className="text-5xl text-gray-100 flex justify-center cursive">My Portfolio</h1>
         <h2 className="text-lg text-gray-100 flex justify-center mb-12">Welcome to my website all about me and my freelancing business as a developer</h2>
-            <section className="bg-gray-200 rounded-lg shadow-2xl lg:flex p-20 opacity-70">
+            <section className="bg-gray-200  rounded-lg shadow-2xl lg:flex p-10 opacity-70">
+            <div class="flex flex-col ...">
+            <div>
                 <h1 className="text-5xl text-gray-900 font-serif">
               I am Raynell Thompson
                 </h1>
-               
-                {/* https://ivy555.medium.com/create-a-simple-portfolio-website-in-reactjs-48e0670364e7 */}
+                </div>
+                <div>
                 <p>
                 I am a front-end software engineer in the NYC area 
                 specializing in building exceptional high quality web & mobile applications
                 </p>
+                </div>
+            </div>
+               
+             
+               
+                {/* https://ivy555.medium.com/create-a-simple-portfolio-website-in-reactjs-48e0670364e7 */}
+                
            
             <h1 className="text-gray-900 font-serif">
              

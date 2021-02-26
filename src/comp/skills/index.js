@@ -16,7 +16,7 @@ function Skills() {
    
    
 <div class="grid-cols-2">
-    <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
+    <figure class="md:flex bg-gray-100 squared-xl p-8 md:p-0">
     <div class="md:flex">
        
         <div class="text-center sm:text-left">
@@ -34,7 +34,7 @@ function Skills() {
         </div>
     </figure>
     <div class="grid-cols-2">
-    <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
+    <figure class="md:flex bg-gray-100 squared-xl p-8 md:p-0">
     <div class="md:flex">
        
     <div class="text-center sm:text-left">
@@ -54,7 +54,7 @@ function Skills() {
     
     </div>
     <div class="grid-cols-2">
-    <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
+    <figure class="md:flex bg-gray-100 squared-xl p-8 md:p-0">
     <div class="md:flex">
        
     <div class="text-center sm:text-left">
@@ -75,7 +75,7 @@ function Skills() {
     </div>
     
     <div class="grid-cols-2">
-    <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
+    <figure class="md:flex bg-gray-100 squared-xl p-8 md:p-0">
     <div class="md:flex">
         
     <div class="text-center sm:text-left">
@@ -96,7 +96,7 @@ function Skills() {
     </div>
     
     <div class="grid-cols-2">
-    <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
+    <figure class="md:flex bg-gray-100 squared-xl p-8 md:p-0">
     <div class="md:flex">
         
     <div class="text-center sm:text-left">
@@ -117,7 +117,7 @@ function Skills() {
     </div>
     
     <div class="grid-cols-2">
-    <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
+    <figure class="md:flex bg-gray-100 squared-xl p-8 md:p-0">
     <div class="md:flex">
        
     <div class="text-center sm:text-left">
@@ -138,7 +138,7 @@ function Skills() {
     </div>
     
     <div class="grid-cols-2">
-    <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
+    <figure class="md:flex bg-gray-100 squared-xl p-8 md:p-0">
     <div class="md:flex">
        
     <div class="text-center sm:text-left">

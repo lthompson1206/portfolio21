@@ -14,21 +14,23 @@ export default function NavBar() {
                   className="inflex-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-gold-800 text-4xl font-bold cursive tracking-widest">
                   <img className="logo" src={logo} style={{"height" : "90px"}} alt=""/>
                   </NavLink>
+                  <NavLink to="/about" 
+                  className="inline-fle items-center py-3 px-3 my-6 rounded text-gray-400 hover:text-green-500"
+                  activeClassName="text-red-100">
+                    About Me
+                  </NavLink>
                   <NavLink to="/post" 
                   className="inline-fle items-center py-3 px-3 my-6 rounded text-gray-400 hover:text-green-500" 
-                  activeClassName="text-red-100 bg-gray-400">
-                   Blog Posts
+                  activeClassName="text-red-100">
+                  Credentials
                   </NavLink>
                   <NavLink to="/project" 
                   className="inline-fle items-center py-3 px-3 my-6 rounded text-gray-400 hover:text-green-500"
-                  activeClassName="text-red-100 bg-gray-400">
-                    Project
+                  activeClassName="text-red-100">
+                    Projects
                   </NavLink>
-                  <NavLink to="/about" 
-                  className="inline-fle items-center py-3 px-3 my-6 rounded text-gray-400 hover:text-green-500"
-                  activeClassName="text-red-100 bg-gray-400">
-                    About Me!
-                  </NavLink>
+                 
+               
                  
                   </nav>  
                  

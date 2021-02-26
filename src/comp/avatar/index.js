@@ -1,4 +1,5 @@
 import React from "react";
+import image from "../../assets/avatar.jpg" 
 
 /* 	
   Function component
@@ -6,10 +7,10 @@ import React from "react";
 */
 function Avatar() {
   return (
-    <div class="inline-block md:flex-shrink-0">
+    <div class="inline-block md:flex-shrink-0 md:flex ">
     <img 
-    class="w-24 h-24 rounded-full" 
-    src="https://i.imgur.com/hjqsipZ.png" 
+    class="w-78 h-400 square-full" 
+    src={image}
     alt="" 
     width="384" 
     height="512"></img>
