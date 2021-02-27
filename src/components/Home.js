@@ -1,10 +1,10 @@
 import React from "react"
 import { SocialIcon } from "react-social-icons";
-// import image from "../assets/bg.png";
+import image from "../assets/bg.png";
 export default function Home() {
     return (
         <main>
-          {/* <img src={image} alt="the edge" className="absolute object-cover w-full h-full" /> */}
+          <img src={image} alt="the edge" className="absolute object-cover w-full h-full" />
              <div className="p-4  lg:pt-48 container mx-auto relative content-center">
              <h1 className="text-5xl text-gray-100 flex justify-center cursive">My Portfolio</h1>
         <h2 className="text-lg text-gray-100 flex justify-center mb-12">Welcome to my website all about me and my freelancing business as a developer</h2>
