@@ -1,5 +1,5 @@
 import React from "react";
-import image_ from "../../assets/code.png"
+
 import image from "../../assets/wireframing.svg";
 import image2 from "../../assets/data.svg";
 import image3 from "../../assets/bookkeeping.svg";
@@ -26,7 +26,7 @@ function Skills() {
             <div class="ml-8 inline-block md:flex-shrink-0">
         <img 
         class=" w-24 h-24 rounded-full" 
-        src={image_} 
+        src="https://i.imgur.com/B5tmZLs.png"
         alt="" 
         width="384" 
         height="512"></img>
