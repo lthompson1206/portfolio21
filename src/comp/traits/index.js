@@ -1,11 +1,5 @@
 import React from "react";
-import image from "../../assets/determined.svg";
-import image2 from "../../assets/planner.svg";
-import image3 from "../../assets/risktaker.svg";
-import image4 from "../../assets/imaginative.svg";
-import image5 from "../../assets/craveslearning.svg";
-import image6 from "../../assets/selfpromoter.svg";
-import image7 from "../../assets/acceptsfailure.svg";
+
 
 /* 	
   Function component
@@ -21,7 +15,7 @@ function Traits() {
        
         <img 
         class="w-24 h-24 rounded-full" 
-        src={image} 
+        src="https://i.imgur.com/0yh5IBe.png"
         alt="" 
         width="384" 
         height="512"></img>
@@ -40,7 +34,7 @@ function Traits() {
         
         <img 
         class="w-24 h-24 rounded-full" 
-        src={image2} 
+        src="https://i.imgur.com/pY0L9cE.png"
         alt="" 
         width="384" 
         height="512"></img>
@@ -61,7 +55,7 @@ function Traits() {
         
         <img 
         class="w-24 h-24 rounded-full" 
-        src={image3} 
+        src="https://i.imgur.com/MUFfJ3a.png"
         alt="" 
         width="384" 
         height="512"></img>
@@ -83,7 +77,7 @@ function Traits() {
         
         <img 
         class="w-24 h-24 rounded-full" 
-        src={image4} 
+        src="https://i.imgur.com/BWgQP1Y.png" 
         alt="" 
         width="384" 
         height="512"></img>
@@ -104,7 +98,7 @@ function Traits() {
         
         <img 
         class="w-24 h-24 rounded-full" 
-        src={image5} 
+        src="https://i.imgur.com/ZBg2y0l.png"
         alt="" 
         width="384" 
         height="512"></img>
@@ -125,7 +119,7 @@ function Traits() {
         
         <img 
         class="w-24 h-24 rounded-full" 
-        src={image6} 
+        src="https://i.imgur.com/3bPPKBU.png" 
         alt="" 
         width="384" 
         height="512"></img>
@@ -146,7 +140,7 @@ function Traits() {
         
         <img 
         class="w-24 h-24 rounded-full" 
-        src={image7} 
+        src="https://i.imgur.com/2bu3afG.png" 
         alt="" 
         width="384" 
         height="512"></img>

@@ -1,11 +1,6 @@
 import React from "react";
 
-import image from "../../assets/wireframing.svg";
-import image2 from "../../assets/data.svg";
-import image3 from "../../assets/bookkeeping.svg";
-import image4 from "../../assets/communication.svg";
-import image5 from "../../assets/marketing.svg";
-import image6 from "../../assets/business.svg";
+
 
 /* 	
   Function component
@@ -44,7 +39,7 @@ function Skills() {
              <div class="ml-8 inline-block md:flex-shrink-0">
         <img 
         class="w-24 h-24 rounded-full" 
-        src={image} 
+        src="https://i.imgur.com/7wSQ7Cr.png"
         alt="" 
         width="384" 
         height="512"></img>
@@ -64,7 +59,7 @@ function Skills() {
              <div class="ml-8 inline-block md:flex-shrink-0">
         <img 
         class="w-24 h-24 rounded-full" 
-        src={image2} 
+        src="https://i.imgur.com/hTjoQZS.png" 
         alt="" 
         width="384" 
         height="512"></img>
@@ -85,7 +80,7 @@ function Skills() {
              <div class="ml-8 inline-block md:flex-shrink-0">
         <img 
         class="w-24 h-24 rounded-full" 
-        src={image3}
+        src="https://i.imgur.com/kPZMlTr.png"
         alt="" 
         width="384" 
         height="512"></img>
@@ -106,7 +101,7 @@ function Skills() {
              <div class="ml-8 inline-block md:flex-shrink-0">
         <img 
         class="w-24 h-24 rounded-full" 
-        src={image4}
+        src="https://i.imgur.com/z72O4i0.png"
         alt="" 
         width="384" 
         height="512"></img>
@@ -127,7 +122,7 @@ function Skills() {
              <div class="ml-8 inline-block md:flex-shrink-0">
         <img 
         class="w-24 h-24 rounded-full" 
-        src={image5} 
+        src="https://i.imgur.com/3f17ezM.png"
         alt="" 
         width="384" 
         height="512"></img>
@@ -148,7 +143,7 @@ function Skills() {
              <div class="ml-8 inline-block md:flex-shrink-0">
         <img 
         class="w-24 h-24 rounded-full" 
-        src={image6} 
+        src="https://i.imgur.com/5XUSoQh.png"
         alt="" 
         width="384" 
         height="512"></img>
