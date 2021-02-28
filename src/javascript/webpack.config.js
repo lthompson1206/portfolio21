@@ -29,7 +29,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-                limit: 50000
+                outputPath: 'images',
             }
           },
         ],
