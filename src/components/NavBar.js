@@ -12,7 +12,7 @@ export default function NavBar() {
                   exact
                   activeClassName="text-gray" 
                   className="inflex-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-gold-800 text-4xl font-bold cursive tracking-widest">
-                  <img className="logo" src={logo} style={{"height" : "90px"}} alt=""/>
+                  <img className="logo" src="https://i.imgur.com/LPTZuOk.png" style={{"height" : "90px"}} alt=""/>
                   </NavLink>
                   <NavLink to="/about" 
                   className="inline-fle items-center py-3 px-3 my-6 rounded text-gray-400 hover:text-green-500"
