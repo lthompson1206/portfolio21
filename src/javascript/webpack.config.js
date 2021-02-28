@@ -24,10 +24,13 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(png|jpe?g|gif)$/i,
+        test: /\.(png|jpg|gif|jpeg)$/i,
         use: [
           {
             loader: 'file-loader',
+            options: {
+                limit: 50000
+            }
           },
         ],
       },
