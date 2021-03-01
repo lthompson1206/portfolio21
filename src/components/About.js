@@ -39,7 +39,7 @@ export default function About() {
       <div className="py-6 lg:pt-1 container mx-auto relative">
         <section className="bg-gray-200 rounded-lg shadow-2xl lg:flex p-20">
         
-          <div className="mt-8 grid grid-cols-3">
+          <div className="mt-8 grid md:grid-cols-2 lg:grid-cols-3">
               
             <div>
               <Traits />
