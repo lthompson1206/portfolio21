@@ -8,7 +8,7 @@ export default function Project() {
     useEffect(() => {
         sanityClient.fetch(`*[_type == "project"]{
             title,
-            date,
+            
             place,
             description,
             projectType,
@@ -27,8 +27,8 @@ export default function Project() {
         <h2 className="text-lg text-gray-100 flex justify-center mb-12">Welcome to my projects page!</h2>
         <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projectData && projectData.map((project, index) => (
-            <article className="relative rounded-lg shadow-xl bg-white p-16">
-                <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
+            <article className="relative w-70 p-6 m-8 bg-gray-900 text-center rounded-2xl text-white  shadow-xl border-white transform scale-125">
+                <h3 className="text-white-800 text-3xl font-bold mb-2 hover:text-green-500">
                     <a
                     href={project.link}
                     alt={project.title}
@@ -36,28 +36,36 @@ export default function Project() {
                     rel="noopener noreferrer"
                     >{project.title}</a>
                 </h3>
+                
                 <div className="text-gray-500 text-xs space-x-4">
-                    <span>
+                    
+                    {/* <span>
                         <strong className="font-bold">Finished on</strong>:{" "}
                         {new Date(project.date).toLocaleDateString()}
-                    </span>
-                    <span>
+                    </span> */}
+                    <span className="text-xl font-semibold">
                         <strong className="font-bold">Company</strong>:{" "}
-                        {project.place}
+                        <span class="text-white">{project.place}</span>
                     </span>
+
                     <span>
                         <strong className="font-bold">Type</strong>:{" "}
                     </span>
-                    <p className="My-6 text-lg text-gray-700 leading-relaxed">
+                    <p className="My-8 text-md text-white leading-relaxed">
                         {project.description}
                     </p>
                     <a href={project.link}
                      rel="noopener noreferrer" 
                      target="_blank"
-                     className="text-red-500 font-bold hover:underline hover:text-red-400"
+                     className="w-full p-4 m-8  bg-blue-600  rounded-xl text-white"
                      >
-                       View The Project{" "}
-                       <span role="img" aria-label="right pointer">👉</span>
+                         <span class="font-medium">
+                         View The Project{" "}
+                         </span>
+                         <span class="pl-2 material-icons align-middle text-sm">
+                                    east
+                                </span>
+                       
                     </a>
                     
                 </div>

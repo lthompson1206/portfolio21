@@ -16,9 +16,13 @@ export default function Home() {
                 </h1>
                 </div>
                 <div>
+               
                 <p>
-                I am a front-end software engineer in the NYC area 
-                specializing in building exceptional high quality web & mobile applications
+                I am a front-end software engineer in the NYC area specializing in building exceptional high quality web & mobile applications
+
+Hardworking and creative developer that is passionate about building things with technology in general. An excellent team player and self starter.
+
+I am a highly adept at conveying complex technical information to a variety of professional and laymens audiences in a clear and understandable manner.
                 </p>
                 </div>
             </div>
