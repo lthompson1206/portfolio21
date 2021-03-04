@@ -37,9 +37,9 @@ export default function About() {
      <h1 className="text-5xl text-gray-100 flex justify-center cursive">About me</h1>
         <h2 className="text-lg text-gray-100 flex justify-center mb-12">Welcome to my page about me as a Tech Entrepreneur</h2>
       <div className="py-6 lg:pt-1 container mx-auto relative">
-        <section className="bg-gray-200 rounded-lg shadow-2xl lg:flex p-20">
+        <section className="bg-white rounded-lg shadow-2xl lg:flex p-20">
         
-          <div className="mt-8 grid md:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-8 bg-white grid md:grid-cols-2 lg:grid-cols-3">
               
             <div>
               <Traits />

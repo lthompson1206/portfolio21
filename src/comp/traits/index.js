@@ -8,7 +8,7 @@ import React from "react";
 function Traits() {
   return (
     <div class="grid-cols-2">
-    <figure class="md:flex bg-gray-100 squared-xl p-8 md:p-0">
+    <figure class="md:flex bg-white squared-xl p-8 md:p-0">
     <div class="md:flex">
 
         <div class="ml-8 inline-block md:flex-shrink-0">
@@ -27,7 +27,7 @@ function Traits() {
         </div>
     </figure>
     <div class="grid-cols-1">
-    <figure class="md:flex bg-gray-100 squared-xl p-8 md:p-0">
+    <figure class="md:flex bg-white squared-xl p-8 md:p-0">
     <div class="md:flex">
 
          <div class="ml-8 inline-block md:flex-shrink-0">
@@ -48,7 +48,7 @@ function Traits() {
     
     </div>
     <div class="grid-cols-1">
-    <figure class="md:flex bg-gray-100 squared-xl p-8 md:p-0">
+    <figure class="md:flex bg-white squared-xl p-8 md:p-0">
   <div class="md:flex">
 
          <div class="ml-8 inline-block md:flex-shrink-0">
@@ -62,7 +62,7 @@ function Traits() {
         </div>
         <div class="inline-block text-center sm:text-right">
              <p><strong>RISK TAKER</strong></p>
-             <p>Not afraid to go all-in. Hope for the best but can deal with the worst</p>
+             <p>Ability to go all-in. Hope for the best but can deal with the worst</p>
              </div>
              </div>
     </figure>
@@ -70,7 +70,7 @@ function Traits() {
     </div>
     
     <div class="grid-cols-1">
-    <figure class="md:flex bg-gray-100 squared-xl p-8 md:p-0">
+    <figure class="md:flex bg-white squared-xl p-8 md:p-0">
    <div class="md:flex">
 
          <div class="ml-8 inline-block md:flex-shrink-0">
@@ -92,7 +92,7 @@ function Traits() {
     </div>
     
     <div class="grid-cols-1">
-    <figure class="md:flex bg-gray-100 squared-xl p-8 md:p-0">
+    <figure class="md:flex bg-white squared-xl p-8 md:p-0">
    <div class="md:flex">
          <div class="ml-8 inline-block md:flex-shrink-0">
         
@@ -113,7 +113,7 @@ function Traits() {
     </div>
     
     <div class="grid-cols-1">
-    <figure class="md:flex bg-gray-100 squared-xl p-8 md:p-0">
+    <figure class="md:flex bg-white squared-xl p-8 md:p-0">
     <div class="md:flex">
          <div class="ml-8 inline-block md:flex-shrink-0">
         
@@ -134,7 +134,7 @@ function Traits() {
     </div>
     
     <div class="grid-cols-1">
-    <figure class="md:flex bg-gray-100 squared-xl p-8 md:p-0">
+    <figure class="md:flex bg-white squared-xl p-8 md:p-0">
     <div class="md:flex">
          <div class="ml-8 inline-block md:flex-shrink-0">
         
