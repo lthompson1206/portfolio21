@@ -6,46 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
+    <script src="https://code.jquery.com/jquery.js"></script>
 <script src="script.js"></script>
 </head>
 <body>
 <!-- Content -->
-<!-- https://dribbble.com/shots/19455734-NFT-Marketplace-Website -->
-<!-- https://codepad.co/snippet/tour-hero-test -->
-    <nav class="navbar">
-        <!-- LOGO -->
-        <div class="logo">TTC</div>
-        <!-- NAVIGATION MENU -->
-        <ul class="nav-links">
-          <!-- USING CHECKBOX HACK -->
-          <input type="checkbox" id="checkbox_toggle" />
-          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-          <!-- NAVIGATION MENUS -->
-          <div class="menu">
-            <li><a href="/">Home</a></li>
-            <li><a href="/">About</a></li>
-            <li class="services">
-              <a href="/">Services</a>
-              <!-- DROPDOWN MENU -->
-              <ul class="dropdown">
-                <li><a href="/">Dropdown 1 </a></li>
-                <li><a href="/">Dropdown 2</a></li>
-                <li><a href="/">Dropdown 2</a></li>
-                <li><a href="/">Dropdown 3</a></li>
-                <li><a href="/">Dropdown 4</a></li>
-              </ul>
-            </li>
-            <li><a href="/">Pricing</a></li>
-            <li><a href="/">Contact</a></li>
-          </div>
-        </ul>
-      </nav>
+<!-- https://dribbble.com/shots/19455734-NFT-Marketplace-Website 
+
+ https://codepad.co/snippet/tour-hero-test -->
 
 
     
-  
+ <div id="hero">
+    <div id="menu">
+        <ul>
+            <li><a href="/Home">Home</a></li>
+            <li><a href="/Blog">Blog</a></li>
+            <li><a href="/Project">Projects</a></li>
+            <li><a href="/Contact">Contact</a></li>
+        </ul>
+    </div>
+    <img id="tour-logo" src="https://www.tivbranding.com/wp-content/themes/tivbranding/images/calistoga-test/han008_logo-frame-1.svg"/>
+    <div id="slider">
+        <img src="https://www.tivbranding.com/wp-content/themes/tivbranding/images/calistoga-test/han008_calistoga_wine_tours_HOME-1.jpg"/>
+        <img src="https://www.tivbranding.com/wp-content/themes/tivbranding/images/calistoga-test/han008_calistoga_wine_tours_HOME-2.jpg"/>
+        <img src="https://www.tivbranding.com/wp-content/themes/tivbranding/images/calistoga-test/han008_calistoga_wine_tours_HOME-3.jpg"/>
+    </div>
+    <div id="lower-content">
+        <div class="copy">EXPERIENCE WINE COUNTRY FROM THE<br/>PEOPLE WHO KNOW IT THE BEST</div>
+        <div class="button">BOOK TODAY!</div>
+        <div class="slider-dots">
+            <div class="dot dot1 active"></div>
+            <div class="dot dot2"></div>
+            <div class="dot dot3"></div>
+        </div>
+        <div class="down-arrow fas fa-chevron-down"></div>
+    </div>
+
+    <!-- Install hamburger menu 
+    fix media query for lettering and image 
+    https://web.dev/optimize-css-background-images-with-media-queries/
+    recreate images and lettering on hero
+   -->
       <div id="page-wrapper">
-        <div id="image-div">image</div>
+   
+        </div>
         <!-- <div id="left">
           <p>Members Only jackets Home Alone ad aute consequat Ghost pottery scene. Wonderwall bleached hair ain’t no thang kicks. Digital pets Oakleys highlights mollit. Men in Black dial-up glow in the dark stickers butterfly clips qui. Tommy Hilfiger da bomb I believe I can fly eu sit. Coral personal computer Ford Taurus Teenage Mutant Ninja Turtles Puff Daddy. Clueless can’t touch this MTV end of the road Jonathan Taylor Thomas Lunchables, ea Goosebumps crew cut portable CD players esse catsuit. Instant messaging hot pink dope valley girl Toyota Previa Jim Carrey. Home skillet chillin’ Rocko’s Modern Life mollit super soaker AC Slater. Babyface Seinfeld Good Will Hunting light up sneakers Geo Metro gangsta rap, Enrique Iglesias Cory Matthews dotcom bubble cargo pants nisi. As I lay me down to sleep fluorescent Steve Urkel dolor life is like a box of chocolates. Tommy Hilfiger DSL ipsum Enrique Iglesias Whitney Houston Spice Girls, Jurassic Park eiusmod Kazaa in. Giga Pets da bomb Rodney King riots can’t touch this. Dotcom bubble Real World id Rush Hour. Carlton dance hottie gangsta rap you’ve got mail Atlanta Braves Beavis and Butthead. Michael Jordan crimped hair Braveheart Doc Martens buddy list. Animated GIFs aliqua fugiat cillum. Leotards Michael Jordan Fresh Prince of Bel-Air the more you know Rocko’s Modern Life. Sports utility vehicles did I do that Umbro shorts white Ford Bronco. LA Gear Speed cupidatat sup DJ Jazzy Jeff. Seattle Supersonics Meg Ryan Generation Y Courtney Love Napster Julia Roberts. Titanic cargo pants sint Koosh ball ullamco Natalie Imbruglia.</p>
         </div>
@@ -109,5 +114,45 @@
     Contact <a href="mailto:trapnerdsolutions@gmail.com">me</a>
     </address>
     </footer>
+
+    <script type="text/javascript">
+jQuery(document).ready(function(){
+			
+            jQuery("#slider > img:gt(0)").hide();
+                                
+            setInterval(function() { 
+            jQuery('#slider > img:first')
+                .fadeOut(2000)
+                .next()
+                .fadeIn(2000)
+                .end()
+                .appendTo('#slider');
+            },  10000);	
+            
+            var $liCollection = $(".slider-dots div");
+            var $firstListItem = $liCollection.first();
+            $liCollection.first().addClass("active");
+            setInterval(function() {
+                var $activeListItem = $(".active")
+                $activeListItem.removeClass("active");
+                var $nextListItem = $activeListItem.closest('div').next();
+                if ($nextListItem.length == 0) {
+                    $nextListItem = $firstListItem;
+                }
+                $nextListItem.addClass("active");
+            }, 10450);
+        });
+                
+        // Bind to the resize event of the window object
+        $(window).on("resize", function () {
+            // Set .right's width to the window width minus 480 pixels
+            width = $("#slider img").width();
+            offset = -(width / 2);
+            console.log(width);
+            $('#hero img').css('margin-left',offset);
+        // Invoke the resize event immediately
+        }).resize();
+
+    </script>
 </body>
 </html>
