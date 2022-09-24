@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet"/>
+      <link href="main.css" type="text/css" rel="stylesheet"/>
+      <script type="text/javascript" src="http://cdn.saldev.nl/js/jquery/jquery-3.1.1.min.js"></script>
+      <script type="text/javascript" src="klassenlijst.js"></script> 
+      <script type="text/javascript" src="hamburger.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery.js"></script>
 <script src="script.js"></script>
 </head>
@@ -13,42 +20,14 @@
 <!-- Content -->
 <!-- https://dribbble.com/shots/19455734-NFT-Marketplace-Website 
 
- https://codepad.co/snippet/tour-hero-test -->
+ https://codepad.co/snippet/tour-hero-test
 
+ https://alvarotrigo.com/blog/hamburger-menu-css/
+ 
+ <div id="page-wrapper">
 
-    
- <div id="hero">
-    <div id="menu">
-        <ul>
-            <li><a href="/Home">Home</a></li>
-            <li><a href="/Blog">Blog</a></li>
-            <li><a href="/Project">Projects</a></li>
-            <li><a href="/Contact">Contact</a></li>
-        </ul>
-    </div>
-    <img id="tour-logo" src="https://www.tivbranding.com/wp-content/themes/tivbranding/images/calistoga-test/han008_logo-frame-1.svg"/>
-    <div id="slider">
-        <img src="https://www.tivbranding.com/wp-content/themes/tivbranding/images/calistoga-test/han008_calistoga_wine_tours_HOME-1.jpg"/>
-        <img src="https://www.tivbranding.com/wp-content/themes/tivbranding/images/calistoga-test/han008_calistoga_wine_tours_HOME-2.jpg"/>
-        <img src="https://www.tivbranding.com/wp-content/themes/tivbranding/images/calistoga-test/han008_calistoga_wine_tours_HOME-3.jpg"/>
-    </div>
-    <div id="lower-content">
-        <div class="copy">EXPERIENCE WINE COUNTRY FROM THE<br/>PEOPLE WHO KNOW IT THE BEST</div>
-        <div class="button">BOOK TODAY!</div>
-        <div class="slider-dots">
-            <div class="dot dot1 active"></div>
-            <div class="dot dot2"></div>
-            <div class="dot dot3"></div>
-        </div>
-        <div class="down-arrow fas fa-chevron-down"></div>
-    </div>
-
-    <!-- Install hamburger menu 
-    fix media query for lettering and image 
-    https://web.dev/optimize-css-background-images-with-media-queries/
-    recreate images and lettering on hero
-   -->
-      <div id="page-wrapper">
+  
+     
    
         </div>
         <!-- <div id="left">
@@ -61,8 +40,36 @@
           <p>Bacon ipsum dolor amet porchetta landjaeger ground round sausage, filet mignon ball tip turkey. Boudin flank drumstick, capicola bacon ham hock corned beef pork fatback jowl shankle cow. Fatback meatloaf pork short ribs tenderloin. Tail picanha chuck meatball prosciutto pork chop. Filet mignon pork chop brisket pork loin porchetta ham hock t-bone jerky. Filet mignon t-bone corned beef strip steak beef ribs ham hock short ribs biltong turkey shankle ball tip jowl swine. Prosciutto rump leberkas pancetta, alcatra ball tip jowl hamburger. Swine ground round andouille pork chop. Short loin pork short ribs spare ribs, ham hock pig rump jowl ham boudin chicken pastrami. Turkey capicola bresaola, ribeye pork chop ham hock pancetta pork loin tail shankle sirloin. Frankfurter swine pig, shankle sausage biltong doner tongue tri-tip fatback. Capicola boudin beef ribs bresaola brisket turducken spare ribs. Corned beef cupim jowl salami ham.Jowl chuck kevin beef meatball pig. Cupim brisket beef ribs pastrami corned beef ham jerky meatball shoulder capicola venison t-bone. Ribeye short loin sausage kevin. Ham hock doner drumstick, kielbasa spare ribs kevin beef ribs biltong pastrami. Biltong ribeye short loin pancetta t-bone leberkas. Picanha kielbasa meatloaf kevin, ribeye salami jerky. Doner tongue flank tenderloin. Pastrami landjaeger beef ribs meatball, cow venison andouille. Rump ball tip chuck, short ribs ribeye short loin pig brisket corned beef swine. Short ribs shank bresaola tail cow. Corned beef leberkas andouille, ham hock boudin chicken flank. Ham hock tail cupim ball tip flank shank tenderloin chicken pork chop. Chuck strip steak corned beef, ham flank t-bone porchetta meatball tongue. Turkey beef ribs capicola sausage flank turducken venison shank prosciutto ham pork belly jerky.</p>
         </div> -->
       </div>
-   
+      
     <main role="main">
+        <input type="checkbox" id="checkbox_toggle" />
+ <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <div id="hero">
+            <div id="menu">
+                <ul>
+                    <li>Home</li>
+                    <li>Blog</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div id="slider">
+                <img src="/assets/Thompson-Tech Co..jpg"/>
+                <img src="/assets/Black Brown Modern Develop Web and Mobile Apps Instagram Post (1200 × 788 px).jpg"/>
+                <img src="/assets/Hi, I'm Lamont Thompson,.jpg"/>
+            </div>
+            <div id="lower-content">
+                <!-- <div class="copy">CHECK OUT MY PORTFOLIO FROM THE<br/>TECH ENTRAPNUER LAMONT THOMPSON AT THOMPSON-TECH CONSULTING</div> -->
+                <div class="button">BOOK TODAY!</div>
+                <div class="slider-dots">
+                    <div class="dot dot1 active"></div>
+                    <div class="dot dot2"></div>
+                    <div class="dot dot3"></div>
+                </div>
+                <div class="down-arrow fas fa-chevron-down"></div>
+            </div>
+        </div>
+       
     <article>
     <h2>HTML CSS JavaScript</h2>
     <p>Content 1</p>
@@ -71,6 +78,7 @@
         <li><p><img src="/demo.jpg" alt="GtuTestLab" width="100" height="48" /></p></li>
         <li><p><img src="/demo.jpg" alt="Catsapp" width="100" height="48" /></p></li>
         </ul>
+   
     </article>
     <article>
     <h2>React</h2>

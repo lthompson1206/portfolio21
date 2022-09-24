@@ -34,6 +34,7 @@
         display: flex;
     }
     #menu li {
+        margin-top: 0px;
         padding: 0 20px;
         text-transform: uppercase;
     }
@@ -79,13 +80,51 @@
         font-size: 1.5em;
         margin: 5px 0;
     }
+/* DROPDOWN MENU */
+.services {
+    position: relative; 
+   
+   }
+   .dropdown {
+    /* background-color: rgb(1, 139, 139); */
+    /* padding: 1em 0; */
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    /* border-radius: 4px; */
+  
+   }
+   .dropdown li + li {
+    margin-top: 10px;
+   }
+   .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+   }
+   .dropdown li:hover {
+    /* background-color: #4c9e9e; */
+   }
+   .services:hover .dropdown {
+    display: block;
+   }
 
+   /*RESPONSIVE NAVBAR MENU STARTS*/
+/* CHECKBOX HACK */
+input[type=checkbox]{
+    display: none;
+   } 
+   /*HAMBURGER MENU*/
+   .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+   }
        /* APPLYING MEDIA QUERIES */
    @media (max-width: 768px) {
-    .menu { 
+    #menu { 
      display:none;
      position: absolute;
-     background-color:teal;
+     /* background-color:teal; */
      right: 0;
      left: 0;
      text-align: center;
