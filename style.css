@@ -235,7 +235,7 @@ input[type=checkbox]{
         /* pricing table */
         .card-pricing.popular {
             z-index: 1;
-            border: 3px solid #007bff;
+            border: 3px solid teal;
         }
         .card-pricing .list-unstyled li {
             padding: .5rem 0;
@@ -812,10 +812,10 @@ select.form-control[multiple] {
 /* footer  */
 
 /* Footer */
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-section {
+/* @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+/* section {
     padding: 60px 0;
-}
+} */
 
 section .section-title {
     text-align: center;
@@ -887,3 +887,80 @@ section .section-title {
 }
 }
 
+/* social media icons animation */
+.container2 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.container2 .btn {
+display: inline-block;
+width: 75px;
+height: 75px;
+/* background: #fff; */
+box-shadow: 0 5px 15px -5px #aaa;
+margin: 10px;
+border-radius: 30%;
+overflow: hidden; 
+position: relative;
+color:  #4c9e9e;
+}
+
+.container2 .btn i {
+    position: relative;
+    z-index: 4;
+    line-height: 90px;
+    font-size: 26px;
+    transition: .3s ease-in-out;
+}
+
+.container2 .btn::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: linear-gradient(#00c6ff, #0072ff);
+    transform: rotate(45deg); 
+    left: -110%;
+    top: 90%;
+}
+
+.container2 .btn:hover i {
+    color: #fff;
+    transform: scale(1.3);
+}
+
+.container2 .btn:hover::before {
+    animation: onHover .7s 1;
+    left: -10%;
+    top: -10%
+}
+
+@keyframes onHover {
+    0% {
+        left: -110%;
+        top: 90%;
+    }
+    50% {
+        left: 10%;
+        top: -30%;
+    }
+    100% {
+        top: -10%;
+        left: -10%;
+    }
+}
+
+
+
+
+/* Thick red border */
+hr.new4 {
+    border: 1px solid white;
+  }
+ 
