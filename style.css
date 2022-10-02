@@ -208,7 +208,7 @@ input[type=checkbox]{
             width: 300px;
             height: 300px;
           }
-          .container .btn {
+          .container .btn2 {
             position: absolute;
             top: 50%;
             left: 50%;
@@ -224,7 +224,7 @@ input[type=checkbox]{
             text-align: center;
           }
           
-          .container .btn:hover {
+          .container .btn2:hover {
             background-color: black;
           }
           #ABC {
