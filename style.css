@@ -46,9 +46,9 @@
     font-size: 17px;
    
   }
-#navbuttons {
-  /* margin-left: 300px; revisit to float left */
-}
+/* #navbuttons {
+  margin-left: 300px; revisit to float left
+} */
    .nav-links a {
     color: #fff;
     float: right;
@@ -774,4 +774,3 @@ color:  #4c9e9e;
     }
 }
 
->>>>>>> v2
