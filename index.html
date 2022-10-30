@@ -5,53 +5,299 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <link rel="stylesheet" href="style.css" />
+   <link rel="stylesheet" href="index.css">
    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="scripts.js"></script>
    <title>Document</title>
  </head>
  <body>
-   <nav class="navbar">
-     <!-- LOGO -->
-     <div class="logo"><img src="./assets/Purple Modern Software Company Logo.png" height="50px"></div>
-     <!-- NAVIGATION MENU -->
-     <ul class="nav-links">
-      <!-- Search bar animation https://www.instagram.com/p/Ci5aa8iDQC_/ -->
-       <!-- USING CHECKBOX HACK -->
-       <input type="checkbox" id="checkbox_toggle" />
-       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-       <!-- NAVIGATION MENUS -->
-       <div class="menu">
-         <div><input type="text" placeholder="search... " required></div>
-         <li><a href="/">About</a></li>
-         <li class="services">
-           <a href="/">Services</a>
-           <!-- DROPDOWN MENU -->
-           <ul class="dropdown">
-            <!-- add accordian style here -->
-            <!-- https://www.instagram.com/p/CecfUVxod0Q/ -->
-             <li><a href="/">Dropdown 1 </a></li>
-             <li><a href="/">Dropdown 2</a></li>
-             <li><a href="/">Dropdown 2</a></li>
-             <li><a href="/">Dropdown 3</a></li>
-             <li><a href="/">Dropdown 4</a></li>
-           </ul>
-         </li>
-         <li><a href="/">Pricing</a></li>
-         <li><a href="/">Contact</a></li>
-       </div>
-     </ul>
-   </nav>
+
+  
+
+
+
+
+   <div class="container">
+    <nav id="navbar">
+      <!-- LOGO -->
+      <div class="logo"><img src="./assets/Purple Modern Software Company Logo.png" height="50px"></div>
+      <!-- NAVIGATION MENU -->
+      <div id="navbuttons">
+        <ul class="nav-links">
+          <!-- USING CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+            
+            <li><a href="#home" class="link">About</a></li>
+            <li class="services">
+              <a href="#services" class="link">Services</a>
+              <!-- DROPDOWN MENU -->
+               <!-- add accordian style here -->
+               <!-- https://www.instagram.com/p/CecfUVxod0Q/ -->
+             
+            </li>
+            <li><a href="#portfolio" class="link">Portfolio</a></li>
+            <li><a href="#contact" class="link">Contact</a></li>
+            <div><input type="text" placeholder="search... ">
+          
+            </div>
+          </div>
+        
+        </ul>
+      </div>
+     
+    </nav>
+    <section  style="padding:10px 10px 10px 10px;font-size:30px; margin-top: 100px; margin-right: -110px; margin-left: 0px;">
+      <a name="home"></a>
+      <header>
+        <div class="overlay">
+      <h1 id="font">Lamont Thompson</h1>
+      <h3 id="font2">Front-End Developer</h3>
+      <p id="font2">A self-taught Web/mobile app developer | Helping small businesses build their online brand | Working Closely with any clients | And Curated Corporate network of clients, I strategise, produce, find and license the best results.</p>
+        <br>
+        <button id="readmore">READ MORE</button>
+          </div>
+      </header>
+      
+
+      
+      
+     
+      
+    </section>
+    <section  style="padding:10px 10px 10px 10px;font-size:30px; margin-top: 100px; margin-right: -110px; margin-left: 0px;">
+      <a name="services"></a>
+      <h1>Featured works</h1>
+
+      <div class="accordion">
+  
+          <!-- BOX 1 -->
+          <div class="box a1">
+              <div class="image_1">
+                  <div class="text">
+                      <h2 class="positionH2">Project Manager 2018</h2>
+                     
+                  </div>
+              </div>
+          </div>
+  
+          <!-- BOX 2 -->
+          <div class="box a2">
+              <div class="image_2">
+                  <div class="text">
+                       <h2 class="positionH2" style="color: #9A86FD">WordPress Developer SEO 2019</h2>
+                      
+                     
+                  </div>
+              </div>
+          </div>
+  
+          <!-- BOX 3 -->
+          <div class="box a3">
+              <div class="image_3">
+                  <div class="text">
+                    <h2 class="positionH2">Front-End Software Engineer 2020</h2>
+                     
+                  </div>
+              </div>
+          </div>
+  
+          <!-- BOX 1 -->
+          <div class="box a4">
+              <div class="image_4">
+                  <div class="text">
+                      <h2 class="positionH2" style="color: #9A86FD">QA Engineer 2022</h2>
+                      
+                  </div>
+              </div>
+          </div>
+  
+          <!-- BOX 5 -->
+          <div class="box a5">
+              <div class="image_5">
+                  <div class="text">
+                      <h2 class="positionH2">AWS Developer Certificate 2023</h2>
+                      
+                  </div>
+              </div>
+          </div>
+  
+      </div>
+  
+    </section>
    
-   <!-- Profile div pic hovered https://www.instagram.com/reel/CdPdVPuDSLZ/?utm_source=ig_web_copy_link -->
-   <!-- <div class="w3-container w3-red">
-    <div class="cards">
-      <div class="card">card one</div>
-      <div class="card">card two</div>
-      <div class="card">card three</div>
+       <section  style="padding:10px 10px 10px 10px;font-size:30px; margin-top: 100px; margin-right: -110px; margin-left: 0px;">
+        <a name="portfolio"></a>
+        <h2><strong>Portfolio<span>( 4 )</span></strong></h2>
+   <div class="cards">
+    <a name="wordpress"></a>
+      <figure class="card">
+  
+        <img src="./assets/chargingtree.png" />
+  
+        <figcaption><a href="https://chargingtree.com/"><button class="gradient-btn">WordPress</button></a></figcaption>
+  
+      </figure>
+   
+ 
+        <figure class="card">
+    
+          <img src="./assets/avantgarden.png" />
+    
+          <figcaption><a href="http://avantgardefusion.com//"><button class="gradient-btn">WordPress</button></a></figcaption>
+    
+        </figure>
+ 
+     <figure class="card">
+ 
+       <img src="./assets/intensity.png" />
+ 
+       <figcaption> <a href="https://www.intensitybysteve.com/"><button class="gradient-btn">WordPress</button></a></figcaption>
+ 
+     </figure>
+ 
+ 
+                 
+     <figure class="card">
+ 
+       <img src="./assets/greenthumbupsite.png" />
+ 
+       <figcaption><button class="gradient-btn">WP E-commerce</button></figcaption>
+ 
+     </figure>
+ 
+    
+ 
+   </div>
+ 
+   <h2><strong>Upcoming projects</strong></h2>
+ 
+   <div class="news">
+ 
+     <figure class="article">
+ 
+       <img src="./assets/greenthumbup.png"/>
+ 
+       <figcaption>
+ 
+         <h3>New Item</h3>
+ 
+         <p>
+ 
+          An E-Commerce Cannabis mobile app to conveniently place your order. It will provide you with not only strain genetics, but also historical and present day facts about each product.
+ 
+         </p>
+ 
+       </figcaption>
+ 
+     </figure>
+ 
+     <figure class="article">
+ 
+       <img src="./assets/sipwithme.png" />
+ 
+       <figcaption>
+ 
+         <h3>New Item</h3>
+ 
+         <p>
+ 
+           A Booking website for your favorite mobile bartender "Sip with me" which allows you to plan accordingly for your events year round, SWM services is now available.
+ 
+         </p>
+ 
+       </figcaption>
+ 
+     </figure>
+ 
      </div>
-  </div> -->
+   
+   </div>
+ </section>
+ <footer>
+   <!-- Footer -->
+ <section id="footer">
+  <a name="contact"></a>
+ <div class="container">
+ <div class="row text-center text-xs-center text-sm-left text-md-left">
+   <div class="col-xs-12 col-sm-4 col-md-4">
+     <h5>ThompsonTech</h5>
+     <ul class="list-unstyled quick-links">
+                   <img src="./assets/Thompson-Tech Logo.png"  alt="Marvel" width="200" height="200" />
+ 
+     </ul>
+   </div>
+   <div class="col-xs-12 col-sm-4 col-md-4">
+     <h5>Quick links</h5>
+     <ul class="list-unstyled quick-links">
+       <li><a href="#home"><i class="fa fa-angle-double-right"></i>About</a></li>
+       <li><a href="#services"><i class="fa fa-angle-double-right"></i>Services</a></li>
+       <li><a href="#portfolio"><i class="fa fa-angle-double-right"></i>Portfolio</a></li>
+       <li><a href="#contact"><i class="fa fa-angle-double-right"></i>Contact</a></li>
+     </ul>
+   </div>
+   <div class="col-xs-12 col-sm-4 col-md-4">
+     <h5>Categories</h5>
+     <ul class="list-unstyled quick-links">
+       <li><a href="#wordpress"><i class="fa fa-angle-double-right"></i>WordPress</a></li>
+       <li><a href="#css-html-javascript sites"><i class="fa fa-angle-double-right"></i>HTML-CSS-JavaScript</a></li>
+       <li><a href="#react sites"><i class="fa fa-angle-double-right"></i>React App</a></li>
+       <li><a href="#mobile app"><i class="fa fa-angle-double-right"></i>Mobile App</a></li>
+       <li><a href="#tv mounting" title="Design and developed by"><i class="fa fa-angle-double-right"></i>TV Mounting</a></li>
+     </ul>
+   </div>
+ </div>
+ <div class="row">
+   <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+     <ul class="container2 list-unstyled list-inline social text-center">
+       <li class="btn"><a href="https://www.facebook.com/profile.php?id=100064173105048"><i class="fa fa-facebook"></i></a></li>
+       <li class="btn"><a href="https://twitter.com/Monte_Raye"><i class="fa fa-twitter"></i></a></li>
+       <li class="btn"><a href="https://www.instagram.com/tech3ntrapreneur/?r=nametag"><i class="fa fa-instagram"></i></a></li>
+       <li class="btn"><a href="https://www.linkedin.com/in/lamont-thompson-profile/"><i class="fa fa-linkedin"></i></a></li>
+       <li class="btn"><a href="#" target="_blank"><i class="fa fa-envelope"></i></a></li>
+     </ul>
+              
+   </div>
+           <br>
+ 
+ </div>	
+ <div class="row">
+   <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+     <p><u><a href="https://www.thompson-techconsulting.com/">Thompson Tech Consulting</a></u> is a Registered LLC of New Jersey [a wholly owned subsidiary of SnackPacks International, Albuquerque, NM]</p>
+               
+     <p class="h6">© All right Reversed.<a class="text-green ml-2" href="https://www.thompson-techconsulting.com/" target="_blank">Powered by AWS</a></p>
+   </div>
+ </div>	
+ </div>
+ </section>
+ </footer>
+   </div>
+
+
+  
+  <script>
+  // When the user scrolls down 20px from the top of the document, slide down the navbar
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-50px";
+    }
+  }
+  </script>
+   
+   
+
+
+
    
  </body>
 </html>
