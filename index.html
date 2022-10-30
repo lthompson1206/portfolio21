@@ -16,38 +16,30 @@
  </head>
  <body>
    <div class="container">
-    <nav id="navbar">
+    <nav class="navbar">
       <!-- LOGO -->
-      <div class="logo"><img src="./assets/Purple Modern Software Company Logo.png" height="50px"></div>
+      <a href="#home" class="logo"><img src="./assets/Purple Modern Software Company Logo.png" height="50px"></a>
+         <!-- USING CHECKBOX HACK -->
+         <input type="checkbox" id="toggler" />
+         <label for="toggler">&#9776;</label>
+         <!-- <label for="checkbox_toggle" class="hamburger">&#9776;</label> -->
       <!-- NAVIGATION MENU -->
-      <div id="navbuttons">
-        <ul class="nav-links">
-          <!-- USING CHECKBOX HACK -->
-          <input type="checkbox" id="checkbox_toggle" />
-          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-          <!-- NAVIGATION MENUS -->
           <div class="menu">
             <!-- <button onclick="toggleMenuVisibility()" aria-haspopup="true">Menu</button> -->
+            <div> <input type="text" placeholder="search... "></div>
+            <ul class="list">
             <li><a href="#home" class="link">About</a></li>
-            <li class="services">
-              <a href="#services" class="link">Services</a>
-              <!-- DROPDOWN MENU -->
-               <!-- add accordian style here -->
-               <!-- https://www.instagram.com/p/CecfUVxod0Q/ -->
-             
-            </li>
+            <li><a href="#services" class="link">Services</a></li>
             <li><a href="#portfolio" class="link">Portfolio</a></li>
             <li><a href="#contact" class="link">Contact</a></li>
-            <div><input type="text" placeholder="search... ">
-          
-            </div>
+            
           </div>
         
         </ul>
       </div>
      
     </nav>
-    <section  style="padding:10px 10px 10px 10px;font-size:30px; margin-top: 100px; margin-right: -110px; margin-left: 0px;">
+    <section  style="padding:10px 10px 10px 10px;font-size:30px; margin-top: 0px; margin-right: -110px; margin-left: 0px;">
       <a name="home"></a>
       <header>
         <div class="overlay">
