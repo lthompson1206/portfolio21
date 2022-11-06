@@ -243,6 +243,11 @@ input:not(:placeholder-shown) {
   transform: translate(-50%, -50%);
   color: rgb(18, 5, 5);
 }
+@media (min-width: 320px) {
+  .bgimage {
+    background-image: url('./assets/profilepic2.png');
+  }
+}
 
 
 
@@ -292,6 +297,25 @@ input:not(:placeholder-shown) {
   background-size:cover;
   position:relative;
 }
+
+@media (min-width: 320px) {
+  .bgimage1 {
+    background-image: url('./assets/Business\ Agile\ Project\ Management\ Infographic\ Graph.png');
+  }
+  .bgimage2 {
+    background-image: url('./assets/Black\ Brown\ Modern\ Develop\ Web\ and\ Mobile\ Apps\ Instagram\ Post\ \(1200\ ×\ 788\ px\).jpg');
+  }
+  .bgimage3 {
+    background-image: url('./assets/Pink\ Search\ Engine\ Optimization\ Instagram\ Story.png');
+  }
+  .bgimage4 {
+    background-image: url('./assets/Navy\ Blue\ Modern\ Techy\ Business\ Automation\ Tools\ Facebook\ Cover.png');
+  }
+  .bgimage5 {
+    background-image: url('./assets/Cloud\ Computing\ Brand\ Logo.png');
+  }
+}
+
 
 
 
