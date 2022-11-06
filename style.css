@@ -247,92 +247,52 @@ input:not(:placeholder-shown) {
 
 
 /* Featured work and Achievements */
-/* @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
-@import url('https://fonts.googleapis.com/css?family=Exo+2');
-html {
-    height: 100vh;
+.reveal {
+  position: relative;
+  transform: translateY(144px); 
+  opacity: 0.5;
+  transition: 1s all ease;
 }
-body {
-    padding: 0;
-    margin: 0;
-    font-family: 'Fjalla One', sans-serif;
-    background: linear-gradient( #fff, #fefefe, #eaeaea);
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
 }
-.accordion {
-    max-width: 990px;
-    background: rgba(0, 0, 0, 0.10);
-    height: 300px;
-    margin: 20px auto;
-    display: flex;
-    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.47);
-    flex-direction: row;
-    cursor: pointer;
-    margin-bottom: 100px;
+.bgimage1 {
+  height:50vh;
+  width: 50vw;
+  background: url('./assets/Business\ Agile\ Project\ Management\ Infographic\ Graph.png');
+  background-size:cover;
+  position:relative;
 }
-.box {
-    position: relative;
-    height: 100%;
-    flex: 1;
-    background-position: left;
-    background-size: cover;
-    transition: .7s;
-    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.47);
+.bgimage2 {
+  height:50vh;
+  width: 50vw;
+  background: url('./assets/Black\ Brown\ Modern\ Develop\ Web\ and\ Mobile\ Apps\ Instagram\ Post\ \(1200\ ×\ 788\ px\).jpg');
+  background-size:cover;
+  position:relative;
 }
-.box:hover{
-    flex: 7;
-    height: 400px;
+.bgimage3 {
+  height:50vh;
+  width: 50vw;
+  background: url('./assets/Pink\ Search\ Engine\ Optimization\ Instagram\ Story.png');
+  background-size:cover;
+  position:relative;
 }
-.a1 {
-    background-image: url("./assets/Business\ Agile\ Project\ Management\ Infographic\ Graph.png");
+.bgimage4 {
+  height:50vh;
+  width: 50vw;
+  background: url('./assets/Navy\ Blue\ Modern\ Techy\ Business\ Automation\ Tools\ Facebook\ Cover.png');
+  background-size:cover;
+  position:relative;
 }
-.a2 {
-    background-image: url("./assets/Pink\ Search\ Engine\ Optimization\ Instagram\ Story.png");
+.bgimage5 {
+  height:50vh;
+  width: 50vw;
+  background: url('./assets/Cloud\ Computing\ Brand\ Logo.png');
+  background-size:cover;
+  position:relative;
 }
-.a3 {
-    background-image: url("./assets/Yellow\ Illustrated\ Web\ Designer\ Business\ Card.png");
-    color: #fff;
-}
-.a4 {
-    background-image: url("./assets/Navy\ Blue\ Modern\ Techy\ Business\ Automation\ Tools\ Facebook\ Cover.png");
-    color: #fff;
-}
-.a5 {
-    background-image: url("./assets/Cloud\ Computing\ Brand\ Logo.png"); 
-}
-p {
-    font-weight: normal;
-    font-family: 'Exo 2', sans-serif;
-}
-.text {
-    position: absolute;
-    bottom: 0;
-    opacity: 0;
-    padding: 4px;
-}
-.box:hover .text{
-    opacity:1;
-}
-h1 {
-    width: 250px;
-    text-align: center;
-    margin: 100px auto 20px auto;
-}
-@media screen and (max-width: 800px){
-    body{
-        margin: 0;
-    }
-    .accordion {
-        flex-direction: column;
-        height: 700px;
-        box-shadow: none;
-    }
-    .box {
-        box-shadow: none;
-    }
-    .box:hover {
-        flex: 7;
-    }
-} */
+
 
 
 

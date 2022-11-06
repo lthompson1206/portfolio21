@@ -49,7 +49,36 @@
           </div>
       </div>
   </section>
-   
+  <section  style="padding:10px 10px 10px 10px;font-size:30px; margin-top: 50px; margin-right: -110px; margin-left: 0px; margin-bottom: 30px;">
+<div class="container">
+  <h3 class="bgimage1">Project Management 2019</h3>
+ 
+</div>
+    </section>
+    <section  style="padding:10px 10px 10px 10px;font-size:30px; margin-top: 50px; margin-right: -110px; margin-left: 0px; margin-bottom: 30px;">
+      <div class="container reveal">
+        <h3 class="bgimage2">Web Developer 2020</h3>
+       
+      </div>
+    </section>
+    <section  style="padding:10px 10px 10px 10px;font-size:30px; margin-top: 50px; margin-right: -110px; margin-left: 0px; margin-bottom: 30px;">
+      <div class="container reveal">
+        <h3 class="bgimage3">Wordpress Developer 2021</h3>
+       
+      </div>
+    </section>
+    <section  style="padding:10px 10px 10px 10px;font-size:30px; margin-top: 50px; margin-right: -110px; margin-left: 0px; margin-bottom: 30px;">
+      <div class="container reveal">
+        <h3 class="bgimage4">QA Automation 2022</h3>
+       
+      </div>
+    </section>
+    <section  style="padding:10px 10px 10px 10px;font-size:30px; margin-top: 50px; margin-right: -110px; margin-left: 0px; margin-bottom: 30px;">
+      <div class="container reveal">
+        <h3 class="bgimage5">AWS Developer Certified 2023</h2>
+       
+      </div>
+    </section>
        <section  style="padding:10px 10px 10px 10px;font-size:30px; margin-top: 50px; margin-right: -110px; margin-left: 0px; margin-bottom: 30px;">
         <a name="portfolio"></a>
         <h2><strong>Portfolio<span>( 4 )</span></strong></h2>
@@ -210,6 +239,24 @@
       document.getElementById("navbar").style.top = "-50px";
     }
   }
+
+  function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+
+    reveals.forEach((reveal) => {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveal.getBoundingClientRect().top;
+        var elementVisible = 100;
+
+        if (elementTop < windowHeight - elementVisible) {
+            reveal.classList.add("active");
+        } else {
+            reveal.classList.remove('active');
+        }
+    });
+}
+
+window.addEventListener("scroll", reveal);
   </script>
    
    
