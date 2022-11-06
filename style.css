@@ -246,6 +246,7 @@ input:not(:placeholder-shown) {
 @media (min-width: 320px) {
   .bgimage {
     background-image: url('./assets/profilepic2.png');
+    width: 100vw;
   }
 }
 
@@ -297,8 +298,13 @@ input:not(:placeholder-shown) {
   background-size:cover;
   position:relative;
 }
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-@media (min-width: 320px) {
+@media (min-width: 600px) {
   .bgimage1 {
     background-image: url('./assets/Business\ Agile\ Project\ Management\ Infographic\ Graph.png');
   }
