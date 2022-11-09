@@ -223,8 +223,10 @@ input:not(:placeholder-shown) {
 /*profile pic and about me*/
 /* hero background image */
 .bgimage {
-  height:100vh;
-  width: 100vw!important;
+  height: 100%;
+  max-width: 100%;
+  
+  
   background: url('./assets/profilepic2.png');
   background-size:cover;
   position:relative;
@@ -244,13 +246,13 @@ input:not(:placeholder-shown) {
   transform: translate(-50%, -50%);
   color: rgb(18, 5, 5);
 }
-@media (min-width: 480px) {
-  .bgimage {
+/* @media (min-width: 480px) {
+  .bgimageA {
     background-image: url('./assets/profilepic2.png');
     background-repeat: no-repeat;
     background-size: contain ;
   }
-}
+} */
 
 
 
